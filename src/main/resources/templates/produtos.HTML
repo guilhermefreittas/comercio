@@ -23,6 +23,7 @@
                     <tr>
                         <th>ID</th>
                         <th>Nome</th>
+                        <th>Descrição</th>
                         <th>Código de Barras</th>
                         <th>Preço</th>
                         <th>Editar</th>
@@ -32,6 +33,7 @@
                     <tr th:each="produto: ${listaDeProdutos}">
                         <td th:text="${produto.id}"></td>
                         <td th:text="${produto.nome}"></td>
+                        <td th:text="${produto.descricao}"></td>
                         <td th:text="${produto.descricao}"></td>
                         <td th:text="${produto.codigoBarras}"></td>
                         <td th:text="${produto.preco}"></td>
