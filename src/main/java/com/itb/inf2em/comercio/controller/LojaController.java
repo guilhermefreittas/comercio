@@ -27,15 +27,17 @@ public class LojaController {
 		produto.setNome("Televisor Samsung 75'");
 		produto.setDescricao("Televisor Tela Plana de Plasma FullHD");
 		produto.setPreco(5467.99);
-		produto.setCodigoBarras("ASDFGHJKL123");
+		produto.setCodigoBarras("ASDFGHJKL12345");
+		produto.setStatus(false);
 		
 		Produto produto2 = new Produto();
 		
-		produto.setId(21l);
-		produto.setNome("geladeira inteligente electrolux'");
-		produto.setDescricao("geladeira com assistente virtual integrada");
-		produto.setPreco(3450.99);
-		produto.setCodigoBarras("QWERTYUUIIO0");
+		produto2.setId(21l);
+		produto2.setNome("geladeira inteligente electrolux'");
+		produto2.setDescricao("geladeira com assistente virtual integrada");
+		produto2.setPreco(3450.99);
+		produto2.setCodigoBarras("QWERTYUUIIO0");
+		produto2.setStatus(true);
 		
 		listaDeProdutos.add(produto);
 		listaDeProdutos.add(produto2);
